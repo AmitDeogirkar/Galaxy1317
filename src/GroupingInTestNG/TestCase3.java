@@ -31,5 +31,8 @@ import org.testng.annotations.Test;
 	public void Test9() {
 		System.out.println("Executing test9");
 	}
-
+                  @Test(groups= {"Functional","Regression"})
+	public void Test10() {
+		System.out.println("Executing test10 for github");
+	}     
  }
